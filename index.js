@@ -25,10 +25,11 @@ app.use(
     })
 );
 
+// importing specific routes
+const landingPage = require('./routes/landing');
+
 async function main() {
-    app.get('/', (req, res) => {
-        res.send('You forgot me! Now it will work! HA HA!');
-    });
+    app.get('/', landingPage);
 };
 main();
 
