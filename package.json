@@ -1,0 +1,26 @@
+{
+  "name": "tgc15-project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisnapoles/tgc15-project3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexisnapoles/tgc15-project3/issues"
+  },
+  "homepage": "https://github.com/alexisnapoles/tgc15-project3#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "wax-on": "^1.2.2"
+  }
+}
