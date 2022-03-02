@@ -27,9 +27,12 @@ app.use(
 
 // importing specific routes
 const landingPage = require('./routes/landing');
+// const aboutPage = require('./routes/landing');
 
 async function main() {
     app.get('/', landingPage);
+    app.get('/about', landingPage);
+    app.get('/contact', landingPage);
 };
 main();
 
